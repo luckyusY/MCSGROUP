@@ -217,17 +217,46 @@
                 line-height: 1.2;
             }
         }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-link {
+            color: #333;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .social-link.facebook:hover {
+            color: #1877f2;
+        }
+
+        .social-link.instagram:hover {
+            color: #e4405f;
+        }
+
+        .social-link.twitter:hover {
+            color: #1da1f2;
+        }
+
+        .social-link.tiktok:hover {
+            color: #000000;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="images/forever-logo.png" alt="MCS GROUP" width="40" height="40" loading="eager">
-                <h1>
-                    <span class="company-name mcs">MCS</span>
-                    <span class="company-name group">GROUP</span>
-                </h1>
+                <img src="images/Final 3.png" alt="MSC GROUP - Strength in Unity, Power in Strategy" width="auto" height="60" loading="eager">
             </div>
             <button class="mobile-menu-btn" aria-label="Toggle menu">
                 <span></span>
@@ -480,14 +509,17 @@
                 <div class="footer-section social">
                     <h3>Follow Us</h3>
                     <div class="social-links">
-                        <a href="#" class="social-link" aria-label="Facebook">
+                        <a href="https://www.facebook.com/peter.mukunzi.1?mibextid=ZbWKwL" class="social-link facebook" target="_blank" rel="noopener" aria-label="Facebook">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
+                        <a href="https://www.instagram.com/st_peter_mukunzi?igsh=OXFlczRsdDY5ZnF5" class="social-link instagram" target="_blank" rel="noopener" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-link" aria-label="Twitter">
-                            <i class="fab fa-twitter"></i>
+                        <a href="https://x.com/MukunziPet32425?s=09" class="social-link twitter" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="http://tiktok.com/@user7288424812438" class="social-link tiktok" target="_blank" rel="noopener" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
                         </a>
                     </div>
                     <div class="business-hours">
